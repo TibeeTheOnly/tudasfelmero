@@ -1,7 +1,6 @@
 # tudasfelmero
 
-This project is a simple calculator application that performs basic arithmetic operations: addition, subtraction, multiplication, and division. It also checks whether the results of these operations are even or odd.
-
+Ez a projekt egy egyszerű számológép alkalmazás, amely alapvető számtani műveleteket végez: összeadást, kivonást, szorzást és osztást. Azt is ellenőrzi, hogy ezeknek a műveleteknek az eredménye páros vagy páratlan.
 ## Project Structure
 
 ```
@@ -13,7 +12,7 @@ tudasfelmero
 └── README.md          # Project documentation
 ```
 
-## Installation
+## Installáció
 
 To install the necessary dependencies, run:
 
@@ -21,23 +20,22 @@ To install the necessary dependencies, run:
 npm install
 ```
 
-## Usage
+## Használat
 
-To run the application, use the following command:
-
+A szükséges csomagok telepítéséhez futtassa a következőt:
 ```
 node src/main.js
 ```
 
-## Functions
+## Funkcik
 
-### Arithmetic Operations
+### Aritmetikai műveletek
 
-- **osszead(a, b)**: Returns the sum of `a` and `b`.
-- **kivon(a, b)**: Returns the result of subtracting `b` from `a`.
-- **szoroz(a, b)**: Returns the product of `a` and `b`.
-- **eloszt(a, b)**: Returns the result of dividing `a` by `b`.
+- **osszead(a, b)**: Visszaadja `a` és `b` összegét.
+- **kivon(a, b)**: Visszaadja a `b` kivonásának eredményét `a`-ból.
+- **szoroz(a, b)**: Visszaadja `a` és `b` szorzatát.
+- **eloszt(a, b)**: Az `a` és `b` osztásának eredményét adja vissza.
 
-### Even or Odd Check
+### Páros vagy páratlan ellenőrzés
 
-The results of the arithmetic operations are checked for evenness or oddness using the `is-even` library.
+Az aritmetikai műveletek eredményeit az `is-even` könyvtár segítségével ellenőrizzük a páros vagy páratlan értékekre.
