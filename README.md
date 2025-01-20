@@ -1,7 +1,7 @@
 # tudasfelmero
 
 Ez a projekt egy egyszerű számológép alkalmazás, amely alapvető számtani műveleteket végez: összeadást, kivonást, szorzást és osztást. Azt is ellenőrzi, hogy ezeknek a műveleteknek az eredménye páros vagy páratlan.
-## Project Structure
+## Project Felépítés
 
 ```
 tudasfelmero
