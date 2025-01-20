@@ -14,7 +14,7 @@ tudasfelmero
 
 ## Installáció
 
-To install the necessary dependencies, run:
+A szükséges csomagok telepítéséhez futtassa a következőt:
 
 ```
 npm install
@@ -22,7 +22,8 @@ npm install
 
 ## Használat
 
-A szükséges csomagok telepítéséhez futtassa a következőt:
+Futtatás:
+
 ```
 node src/main.js
 ```
