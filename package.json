@@ -1,0 +1,17 @@
+{
+  "name": "tudasfelmero",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "dependencies": {
+    "is-even": "^1.0.0"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "This project is a simple calculator application that performs basic arithmetic operations: addition, subtraction, multiplication, and division. It also checks whether the results of these operations are even or odd."
+}
